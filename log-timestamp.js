@@ -17,5 +17,5 @@ function patch(prefix) {
 
 // the default date format to print
 function timestamp() {
-  return '[' + new Date().toLocalString() + ']';
+  return '[' + new Date().toLocaleString() + ']';
 }
